@@ -22,3 +22,27 @@ Para realizar a função [NOME DA FUNÇÃO], o usuário percorre:
 a leitura.
 * **Navegação:** Implementamos nomes intuitivos nos botões (ex: em vez de
 "OK", usamos "Salvar Alterações").
+
+### Criando a "Ponte" (Controller)
+
+* **. O que ele faz:** Imagine que este arquivo é o recepcionista do seu sistema.
+
+* **. Tarefa:** Escreva um comentário (ou código simples) descrevendo a lógica de redirecionamento.
+
+### Implementando o Comportamento (Front-end)
+
+* **. Interatividade**: Este arquivo deve conter a lógica de clique dos botões do seu menu.
+
+* **. Desafio de UX:** Crie uma função que exiba um alerta ou mude uma cor na tela quando o usuário realizar a ação principal do seu TCC (ex: "Produto Adicionado ao Carrinho"). Isso garante o feedback visual, um pilar essencial de UX.
+
+### Refinando a Interface (View + CSS)
+
+* **Foco em Acessibilidade:** Defina regras de estilo para os botões.
+
+* Use a regra de ouro do contraste: fundo escuro com letra clara (ou vice-versa).
+
+* Adicione o efeito :hover para que o usuário saiba que o elemento é clicável.
+
+### Atualizando a Documentação (README)
+
+
