@@ -1,3 +1,16 @@
-**. O que faz:**  ## Imagine que este arquivo é o recepcionista do seu sistema.
+/**
+ * NavigationController
+ * Responsável por decidir para onde o usuário vai após uma ação.
+ */
 
-**Tarefa:**  ## Escreva um comentário (ou código simples) descrevendo a lógica de redirecionamento.
+function gerenciarRota(acao) {
+    if (acao === "FINALIZAR_CADASTRO") {
+        // Lógica: Validar dados -> Salvar no Model -> Redirecionar
+        return "Exibindo tela de Sucesso";
+    } else {
+        return "Permanecer na página atual";
+    }
+}
+
+// Exemplo de lógica de processamento
+console.log("Controller pronto para gerenciar rotas de navegação.");
